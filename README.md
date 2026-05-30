@@ -9,6 +9,4 @@ This repository serves as a structured log of my journey through the **Apna Coll
 
 ## 📂 Repository Architecture
 
-The codebase is organized into topic-specific directories following a clean, systematic progression:
-
-```
+The codebase is organized into topic-specific directories following a clean, systematic progression.
