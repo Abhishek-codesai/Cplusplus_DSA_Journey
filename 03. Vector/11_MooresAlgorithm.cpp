@@ -5,8 +5,10 @@ int MajorityEle(vector<int>nums){
     int n = nums.size();
     int freq = 1, ans = nums[0];
     for(int i=1; i<n; i++){
-        if(freq == 0) ans = nums[i];
-        if(ans == nums[i]) freq++;
+        if(freq == 0) {
+            ans = nums[i];
+            freq = 1;}
+        else if(ans == nums[i]) freq++;
         else freq--;
     }
     return ans;
